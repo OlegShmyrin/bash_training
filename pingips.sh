@@ -1,5 +1,6 @@
 #!/bin/bash
 #To find cative IP addresses in subnet
+#TODO: Get subnet from ip a command
 if [ $1 == '' ]
 then
     echo "Enter IP network in format: pingips.sh 192.168.0"
